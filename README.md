@@ -1,3 +1,4 @@
-### This would include various AKS level scripts which would be useful for multiple tasks
-## Script1
-### AKS cluster level loop for automation of various cluster level changes
+## This would include various AKS level scripts which would be useful for multiple tasks
+## Overview of Scripts 
+### 1. AKSClusterLoop.sh would look though different AKS cluster and perform specified actions.
+
