@@ -1,0 +1,22 @@
+These are some of the commands which are useful in git 
+1. To initiaze a new repository - git init 
+2. To add the changes to the staging area - git add 
+3. To add all the changes done to all the files to the staging area  - git add .
+4. To clone any repository from the remote  - git clone remote_repo_URL
+5. To create a new branch - git branch new_branch_name
+6. To switch to that particular branch - git checkout new_branch_name
+7. To take the snapshot of the staging area  - git commit -m "Type your message here"
+8. To check who made the changes to a particular line of code - git blame File_name_here
+9. To push the changes to the remote repo -  git push --set-upstream origin [git push --set-upstream Remote_repo_name Current_repo/branch_name]
+10. To add the remote repo - git remote add origin URL_of_the_remote_repo
+11. To refresh your current repo and pull the changes from the source repo - git pull
+12. To push the code to remote repo but you want to change the name of remote repo - git push Remote_repo_name LOCAL-BRANCH-NAME:REMOTE-BRANCH-NAME
+13. To delete a branch on the remote - git push Remote_repo/branch_name  :Branch/repo_name 
+14. To just get the latest branches and tags without merging them in our repos - git fetch Remote
+15. To merge the changes done by others to your code - git merge Remote/branch_name
+16. To do fetch and merge in a single command - git pull Remote_name Branch_name 
+17. To abort the changes which we have fetched from origin - git merge --abort
+18. To verify which remote backend is added to our repo - git remote -v 
+19. To make a subfolder, its own repo - git filter-repo --subdirectory-filter Specific_folder_name_here
+20. To add a new remote repo and immediately fetch its data - git remote add -f URL_of_the_remote_repo  # used in case of subrepos 
+21. To edit previous commits, combine multiple commits into one, delete or revert commits that are no longer necessary - git rebase 
